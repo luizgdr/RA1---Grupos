@@ -1,0 +1,8 @@
+7
+true
+(\neg (\wedge 7b (\vee false 1a)))
+(\vee 8c (\neg (\rightarrow true 2d)))
+(\wedge (\neg 9e) (\vee (\neg false) 3f))
+(\vee)
+(\rightarrow (\vee 1g (\neg 2h)) (\wedge 3i (\neg false)))
+(\leftrightarrow (\neg 4j) true (\neg 5k))

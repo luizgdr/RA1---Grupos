@@ -1,0 +1,5 @@
+5
+(\leftrightarrow (\neg true) (\wedge 1a (\vee false 2b)))
+(\vee 12abc false)
+false false
+1A

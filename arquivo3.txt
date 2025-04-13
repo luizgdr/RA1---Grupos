@@ -1,0 +1,9 @@
+8
+( \wedge 24p 2q )
+( \vee 2p ( \vee 3p 4q ) )
+( \rightarrow 55p 6q )
+( \leftrightarrow 1p 56q )
+( \wedge \neg 6p2 )
+( \rightarrow 77p ( \neg 8q ) )
+( \wedge ( \vee 7p 7q ) 4r )
+( \rightarrow ( \wedge 4p ( \vee 2q 2r ) ) 9s )

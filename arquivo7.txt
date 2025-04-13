@@ -1,0 +1,11 @@
+10
+(\neg (\wedge 12a (\vee (\neg 3b) 4c)))
+2def
+(\vee (\neg (\wedge true 5g)) (\rightarrow 6h 7i))
+(\vee (\neg (\wedge true)) (\rightarrow 6h 7i))
+(\abc 3j (\vee false 8k))
+(\vee (\neg 4l) 9m)
+(\rightarrow (\neg) (\vee true 0n))
+(\leftrightarrow true (\neg 6o))
+(\vee 7p (\wedge 8q (\vee false (\neg 1r)) extra))
+false

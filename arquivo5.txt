@@ -1,0 +1,8 @@
+7
+0xyz
+(\neg (\vee (\neg true) 10ab))
+(\rightarrow (\wedge 2a (\vee false 3b)) (\neg 4c))
+(\wedge (\vee true 5d))
+(\vee (\neg 6e) (\rightarrow 7f true))
+(\vee 4)
+(\leftrightarrow (\neg 8g) (\wedge 9h (\vee false 1i)))

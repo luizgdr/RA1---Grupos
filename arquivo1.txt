@@ -1,0 +1,9 @@
+8
+(\neg true)
+(\wedge (\neg (\vee 1a 2b)) 3c)
+(\wedge 1x true)
+(\neg (\vee false 0a))
+(\rightarrow true)
+5z
+(false)
+(\rightarrow true false)
