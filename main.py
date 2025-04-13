@@ -156,25 +156,6 @@ def validate_expression(expr: str) -> str:
         # erro sintático
         return "invalida"
 
-# Valida a linha
-def validate_expression(expr: str) -> str:
-    try:
-        tokens = lexical_analyzer(expr)
-    except ValueError:
-        # erro léxico
-        return "invalida"
-    parser = LL1Parser(tokens)
-    try:
-        parser.parse_formula()
-        # verifica se todos os tokens foram consumidos
-        if parser.index != len(tokens):
-            # sobrou tokens não utilizados
-            return "invalida"
-        return "valida"
-    except ValueError:
-        # erro sintático
-        return "invalida"
-
 def process_file(filename: str):
     with open(filename, 'r') as f:
         lines = f.read().splitlines()
