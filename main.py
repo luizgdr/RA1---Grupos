@@ -180,17 +180,17 @@ def process_file(filename: str):
     with open(filename, 'r') as f:
         lines = f.read().splitlines()
     if not lines:
-        print("Arquivo vazio ou formato inválido")
+        # print("Arquivo vazio ou formato inválido")
         return
     # primeira linha deve ser um inteiro
     try:
         count = int(lines[0].strip())
     except ValueError:
-        print("Formato inválido: a primeira linha não é um número inteiro")
+        # print("Formato inválido: a primeira linha não é um número inteiro")
         return
     expressions = lines[1:]
     if count > len(expressions):
-        print("Aviso: O arquivo declara mais expressões do que as fornecidas")
+        # print("Aviso: O arquivo declara mais expressões do que as fornecidas")
         count = len(expressions)
     # processa cada expressão
     for i in range(min(count, len(expressions))):
@@ -199,10 +199,7 @@ def process_file(filename: str):
         print(result)
 
 def main():
-    for fname in glob.glob('arquivo*.txt'):
-        print(f"Resultados para {fname}:")
-        process_file(fname)
-        print("-------------------------")
+    process_file("arquivo1.txt")
 
 if __name__ == "__main__":
     main()
