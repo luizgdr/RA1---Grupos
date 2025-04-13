@@ -1,5 +1,4 @@
 # Luís Felipe Yoshio Sato, Luiz Guilherme Durau Rodrigues, Pedro Lunardelli Antunes, Thiago Vinícius Pereira Borges
-import glob
 
 # converte uma linha de expressão em uma lista de tokens
 def lexical_analyzer(line: str) -> list:
