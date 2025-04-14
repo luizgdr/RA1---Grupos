@@ -1,4 +1,5 @@
 # Luís Felipe Yoshio Sato, Luiz Guilherme Durau Rodrigues, Pedro Lunardelli Antunes, Thiago Vinícius Pereira Borges
+from sys import argv
 
 # converte uma linha de expressão em uma lista de tokens
 def lexical_analyzer(line: str) -> list:
@@ -179,7 +180,9 @@ def process_file(filename: str):
         print(result)
 
 def main():
-    process_file("arquivo1.txt")
+    if len(argv) != 2:
+        return
+    process_file(argv[1])
 
 if __name__ == "__main__":
     main()
